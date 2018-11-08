@@ -19,6 +19,7 @@ public class ManejoColecciones {
      */
     public static void main(String[] args) {
         
+        //Tambien dentro la interfaz List esta la clase vector
         List miLista = new ArrayList();
         miLista.add("1");
         miLista.add("2");
