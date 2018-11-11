@@ -29,7 +29,7 @@ public class ManejoExcepcionesArg {
             System.out.println("Uno de los argumentos no es entero");
         }catch(OperationException oe){
             System.out.println("Ocurrio una excepcion: ");
-            System.out.println("Se trato de realizar");
+            System.out.println("Se trato de realizar una operacion erronea");
             oe.printStackTrace();
         }finally{
             System.out.println("Se terminaron de revisar las excepciones");

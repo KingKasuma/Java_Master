@@ -30,7 +30,7 @@ public class ClaseObject {
         if(emp1 == emp2){
             System.out.println("Los objetos tiene misma direccion de memoria");                       
         }else{
-            System.out.println("Los objetos tiene distancia direccion de memoria");
+            System.out.println("Los objetos tiene distinta direccion de memoria");
         }
         
         //Revision por el metodo equals
