@@ -11,7 +11,7 @@ public class ManejoArchivos {
 
     //Nota: Ya debe estar creada la carpeta sobre la que se va a trabajar
     //Y en caso necesario se deben asignar permisos de escritura a la carpeta
-    private static final String NOMBRE_ARCHIVO = "G:\\Projects\\OWN\\Backend\\Java\\Udemy\\Java_Master\\ManejoArchivos\\pruebaJava.txt";
+    private static final String NOMBRE_ARCHIVO = "/media/mike/Projects/own/Backend/Java/Udemy/Java_Master/ManejoArchivos/pruebaJava.txt";
       
     public static void main(String[] args) {
         //Crear un archivo
