@@ -20,17 +20,17 @@ public class EntradaDatos {
         //Input agarra el dato de entrada
         InputStreamReader input = new InputStreamReader(System.in);
         //El bufferedReader es para leer lineas completas y no solo caracter a caracter
-        BufferedReader bInput = new BufferedReader(input);
-        try{
-            System.out.println("Introduce un dato:");
-            captura = bInput.readLine();
-            while(captura != null){
-                System.out.println("Dato introducido: "+ captura);
-                captura = bInput.readLine();
-            }
-        }catch(IOException e){
-            e.printStackTrace();
-        }
+       BufferedReader bInput = new BufferedReader(input);
+       try{
+           System.out.println("Introduce un dato");
+           captura = bInput.readLine();
+           while(captura != null){
+               System.out.println("Dato introducido: "+captura);
+               captura = bInput.readLine();
+           }
+       }catch(IOException e){
+           e.printStackTrace();
+       }
     }
-    
+     
 }
