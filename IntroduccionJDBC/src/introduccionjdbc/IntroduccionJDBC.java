@@ -20,7 +20,8 @@ public class IntroduccionJDBC {
         String url = "jdbc:mysql://localhost:3306/sga?userSSL=false";
         // Cargamos el driver de mysql
         try{
-            Class.forName("com.mysql.jdbc.Driver");
+            //Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             // Creamos el objeto de conexion
             Connection conexion = (Connection) DriverManager.getConnection(url, "root", "onmyownway");
             // Creamos un objeto Statement
